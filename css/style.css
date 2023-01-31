@@ -184,3 +184,81 @@ header nav .btn-primary{
     .s-newsletter .btn-primary{
         padding: 1.75rem 4.1rem;
     }
+
+    footer{
+     background-color: var(--gray-colors-100);   
+     padding-top: 88px;
+     padding-bottom: 39px;
+    }
+    footer main{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding-bottom: 72px;
+    }
+
+    footer main .area-left{
+        max-width: 278px;
+    }
+    footer main .area-left p{
+        font-size: 14px;
+        line-height: 150%;
+        color: var(--white-colors-text);
+        margin-top: 35px;
+    }
+    footer main nav{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 777px;
+    }
+    footer main nav .item h6{
+        font-family: 'Sora',sans-serif;
+        font-weight: 600;
+        line-height: 125%;
+        letter-spacing: -1px;
+        color: white;
+        margin-bottom: 24px;
+    }
+    footer main nav .item ul li a{
+        font-family: 'Sora',sans-serif;
+        font-weight: normal;
+        line-height: 185%;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.7);
+        
+
+    }
+    footer main nav .item ul li{
+        margin-bottom: 32px;
+    }
+    footer main nav .item ul li:last-child{
+        margin-bottom: 0;
+    }
+    footer main nav .item:last-child ul li a{
+        display: flex;
+        align-items: center;
+    }
+    footer main nav .item:last-child ul li a span{
+        margin-left: 8px;
+    }
+
+    footer .copy{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 31px;
+    }
+    footer .copy p{
+        color: var(--white);
+    }
+    footer .copy .group{
+        display: flex;
+        align-items: center;
+    }
+    footer .copy .group span{
+        color: var(--white);
+        margin-right: 8px;
+    }
