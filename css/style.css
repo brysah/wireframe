@@ -137,3 +137,50 @@ header nav .btn-primary{
         margin-top: 8px;
         line-height: 150%;
     }
+    .s-card-feature .second-area{
+        margin-top: 112px;
+    }
+    .s-card-feature .second-area .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 64px;
+    }
+    .s-card-feature .second-area .all-imgs{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+    .s-card-feature .second-area .all-imgs .image{
+        width: 176px;
+        height: 112px;
+        background-color: var(--gray-colors-200);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s-newsletter{
+        background-color: var(--gray-colors-200);
+        padding: 152px 0;
+
+    }
+
+    .s-newsletter .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .s-newsletter h2{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .s-newsletter p {
+        max-width: 694px;
+        text-align: center;
+        color: var(--white-colors-text);
+        margin-bottom: 40px;
+    }
+    .s-newsletter .btn-primary{
+        padding: 1.75rem 4.1rem;
+    }
