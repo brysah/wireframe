@@ -3,9 +3,12 @@ header{
     height: 8.8rem;
     background-color: var(--gray-colors-800) ;
     display: flex;
+    position: fixed;
+    top: 0;
 }
 
 header .container{
+
   display: flex;  
   justify-content: space-between;
   align-items: center;
@@ -37,6 +40,7 @@ header nav .btn-primary{
 
 .s-hero{
     padding:7.2rem 0;
+    margin-top: 88px;
 }
 
 .s-hero .container{
@@ -228,8 +232,11 @@ header nav .btn-primary{
         line-height: 185%;
         font-size: 14px;
         color: rgba(255, 255, 255, 0.7);
-        
+        transition: color .3s;
 
+    }
+    footer main nav .item ul li a:hover{
+        color: var(--white);
     }
     footer main nav .item ul li{
         margin-bottom: 32px;
